@@ -1,5 +1,6 @@
-###VGChartz Data Analysis Project
-#Group Members:
+# VGChartz Data Analysis Project
+
+## Group Members:
  - Simon Ambrozak
  - Shubham Bhatnagar
  - Brandon Kim
