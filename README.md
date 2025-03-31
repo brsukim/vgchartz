@@ -6,3 +6,5 @@
  - Brandon Kim
  - Meherzan Gai
  - Jude Lwin
+
+https://github.com/NewbieIndieGameDev/steam-insights
