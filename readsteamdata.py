@@ -6,6 +6,7 @@ import time
 import re
 from tqdm import tqdm
 
+### TODO: Do this in a jupyter file instead
 
 # Merge the simple CSVs based on app_id
 gamesdf = pd.read_csv("./games.csv", quotechar='"', escapechar='\\', dtype="str")
