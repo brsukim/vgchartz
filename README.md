@@ -18,15 +18,13 @@ find . -name "*.csv" -exec cp {} ../vgchartz/ \;
 cd ../vgchartz/
 ```
 
-### If on windows:
+### If on windows (on powershell):
 ```
-# Find and unzip all .zip files in the current directory and subdirectories
+git clone git@github.com:NewbieIndieGameDev/steam-insights.git
+cd steam-insights
 Get-ChildItem -Path . -Filter "*.zip" -Recurse | ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath (Split-Path -Path $_.FullName) }
-
-# Find and copy all .csv files to ../vgchartz/
 $destination = "..\vgchartz\"
 Get-ChildItem -Path . -Filter "*.csv" -Recurse | ForEach-Object { Copy-Item -Path $_.FullName -Destination $destination }
 
-# Change directory to ../vgchartz/
 Set-Location -Path $destination
 ```
