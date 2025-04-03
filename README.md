@@ -7,6 +7,7 @@
  - Meherzan Gai
  - Jude Lwin
 
+COLAB - https://colab.research.google.com/drive/1E3bfuxTUtmcrbO-4iGgxIu_lSpQaFiu0?usp=sharing
 https://github.com/NewbieIndieGameDev/steam-insights
 ### How to get .csv files:
 In the directory that THIS vgchartzs folder is in: (Ex: CS-Projects/)
